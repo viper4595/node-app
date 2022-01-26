@@ -64,7 +64,7 @@ app.listen(3000, async () => {
     (err, res) => {
       console.log('-------------------------')
 
-      console.log('Admin user read customer')
+      console.log('Admin user: read customer')
       console.log('GET http://localhost:3000/get-customer', res.statusCode)
     }
   )
@@ -75,7 +75,7 @@ app.listen(3000, async () => {
     (err, res) => {
       console.log('-------------------------')
 
-      console.log('Normal user read customer')
+      console.log('Normal user: read customer')
       console.log('GET http://localhost:3000/get-customer', res.statusCode)
     }
   )
@@ -86,7 +86,7 @@ app.listen(3000, async () => {
     (err, res) => {
       console.log('-------------------------')
 
-      console.log('Admin user create customer')
+      console.log('Admin user: create customer')
       console.log('POST http://localhost:3000/create-customer', res.statusCode)
     }
   )
@@ -97,8 +97,8 @@ app.listen(3000, async () => {
     (err, res) => {
       console.log('-------------------------')
 
-      console.log('Normal user create customer')
-      console.log('POST http://localhost:3000/get-customer', res.statusCode)
+      console.log('Normal user: create customer')
+      console.log('POST http://localhost:3000/create-customer', res.statusCode)
     }
   )
 })
